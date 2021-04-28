@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>P80</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js"></script>
+
+</head>
+
+<body>
+	<center>
+		<h3 style="margin-top: 20px; margin-bottom: 20px; ">
+			Make paragraphs from input boxes
+		</h3>
+	</center>
+	<div id="rows" style="float: left;">
+		<span>1</span>
+		<input type="text" placeholder="inputbox1" id="k1">
+		<br>
+
+		<span>2</span>
+		<input type="text" placeholder="inputbox2" id="k2">
+		<br>
+
+		<span>3</span>
+		<input type="text" placeholder="inputbox3" id="k3">
+		<br>
+
+		<span>4</span>
+		<input type="text" placeholder="inputbox4" id="k4">
+		<br>
+		<button onclick="getParagraph1()" id="submit_button">
+			get paragraph
+		</button>
+	</div>
+
+	<div id="rows2" style="float: right;">
+		<span>1</span>
+		<input type="text" placeholder="inputbox1" id="j1">
+		<br>
+
+		<span>2</span>
+		<input type="text" placeholder="inputbox2" id="j2">
+		<br>
+
+		<span>3</span>
+		<input type="text" placeholder="inputbox3" id="j3">
+		<br>
+
+		<span>4</span>
+		<input type="text" placeholder="inputbox4" id="j4">
+        <br>
+		<button onclick="getParagraph2()" id="submit_button">
+			get paragraph
+		</button>
+	</div>
+	<br>
+	<br>
+<div>
+    <h1 id="p1">
+	</h1>
+	<h1 id="p2">
+	</h1>
+</div>
+</body>
+
+</html>
